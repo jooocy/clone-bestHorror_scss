@@ -1,0 +1,19 @@
+@import "_variables";
+@import "_mixins";
+@import "title-bar";
+
+
+body{
+  background-color: $title-bg;
+  margin: 0%;
+}
+
+.main-bar{
+  background-color: $main-bg;
+  height: 100vh;
+}
+
+.title-bar{
+  height: 100%;
+}
+

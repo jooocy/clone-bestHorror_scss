@@ -1,0 +1,41 @@
+.title-bar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: left;
+        
+
+
+    .title-bar__title{
+        margin-top: 130px;
+        font-size: 50px;
+        background-color: bisque;
+        
+    }
+
+    .title-bar__detail{
+        background-color: cadetblue;
+
+        .title-bar__detail__header{
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .title-bar__detail__info{
+            margin-bottom: 40px;
+            font-size: 17px;
+        }
+        .title-bar__detail__nav{
+            font-size: 15px;
+
+            margin-bottom: 30px;
+        }
+        .title-bar__detail__footer{
+            margin-bottom: 110px;
+            font-size: 11px;
+            word-spacing: 1px;
+        }
+    }
+
+}
