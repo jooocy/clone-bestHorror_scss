@@ -5,18 +5,16 @@
     justify-content: space-between;
     align-content: center;
     text-align: left;
-        
+    color:$main-bg; 
 
 
     .title-bar__title{
         margin-top: 130px;
         font-size: 50px;
-        background-color: bisque;
-        
+           
     }
 
     .title-bar__detail{
-        background-color: cadetblue;
 
         .title-bar__detail__header{
             margin-bottom: 30px;
@@ -24,17 +22,28 @@
         }
         .title-bar__detail__info{
             margin-bottom: 40px;
-            font-size: 17px;
+            font-size: 16px;
+            font-weight: 600;
         }
         .title-bar__detail__nav{
-            font-size: 15px;
+            :nth-child(n){
+            text-decoration: underline;
+            text-underline-position: under;
+            color: gray;
 
+            &:hover{
+                color: black;
+            }
+
+            }
+            font-size: 17px;
             margin-bottom: 30px;
         }
         .title-bar__detail__footer{
             margin-bottom: 110px;
             font-size: 11px;
             word-spacing: 1px;
+            color: gray;
         }
     }
 

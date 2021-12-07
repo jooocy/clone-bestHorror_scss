@@ -2,6 +2,9 @@
 @import "_mixins";
 @import "title-bar";
 
+@import "main-bar__header";
+@import "main-bar__main";
+
 
 body{
   background-color: $title-bg;
@@ -11,7 +14,7 @@ body{
 .main-bar{
   background-color: $main-bg;
   height: 100vh;
-}
+  position: relative;}
 
 .title-bar{
   height: 100%;

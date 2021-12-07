@@ -1,0 +1,27 @@
+.main-bar__header{
+    position: fixed;
+    opacity: 0.8;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    border-bottom: 1px solid darkred;
+
+    height: 160px;
+    width: inherit;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+    a{
+        
+        text-decoration: underline;
+        text-underline-position: under;
+        color: darkred;
+        &:hover{
+            color: white;
+        }
+    }    
+}
